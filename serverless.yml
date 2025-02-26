@@ -7,8 +7,8 @@ provider:
 
 functions:
   informacion:
-    handler: handler.hello
+    handler: handler.informacion
     events:
       - httpApi:
-          path: /
+          path: /info
           method: get
