@@ -5,7 +5,7 @@ def informacion(event, context):
     body = {
         "nombre": "Samuel",
         "apellidos": "Valencia Baez",
-        "edad": 18,
+        "edad": "18",
         "programa" : "Ingenieria de Software",
         "codigo" : "240220232015"
     }
